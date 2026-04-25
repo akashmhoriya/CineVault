@@ -11,7 +11,7 @@
   color: var(--heading_color);
 }
 
-.navbar > a{
+.navbar > a {
   text-decoration: none;
 }
 

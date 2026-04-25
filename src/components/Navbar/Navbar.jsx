@@ -8,7 +8,9 @@ import Party from "../../assets/partying-face.png";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <a href=""><h1>CineVault</h1></a>
+      <a href="">
+        <h1>CineVault</h1>
+      </a>
       <div className="navbar_links">
         <DarkMode />
         <a href="#popular">
