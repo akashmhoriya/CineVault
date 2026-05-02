@@ -98,8 +98,7 @@ const MovieList = ({ type, title, emoji }) => {
             id=""
             onChange={handleSort}
             value={sort.by}
-            className="movie_sorting"
-          >
+            className="movie_sorting">
             <option value="default">SortBy</option>
             <option value="release_date">Date</option>
             <option value="vote_average">Rating</option>
@@ -110,8 +109,7 @@ const MovieList = ({ type, title, emoji }) => {
             id=""
             onChange={handleSort}
             value={sort.order}
-            className="movie_sorting"
-          >
+            className="movie_sorting">
             <option value="asc">Ascending</option>
             <option value="desc">Descending</option>
           </select>
